@@ -31,6 +31,5 @@ def valid_phone_number?(phone)
 end
 
 def valid_phone_number?(phone)
-  # phone.match(/\s*\W?([2-9][0-8][0-9])\s*\W?([2-9][0-9]{2})\s*\W?([0-9]{4})/)
-    phone.match(/\s*\W?([0-9]{3})\s*\W?([0-9]{3})\s*\W?([0-9]{4})/)
+  phone.match(/\s*\W?([2-9][0-8][0-9])\s*\W?([2-9][0-9]{2})\s*\W?([0-9]{4})/)
 end
